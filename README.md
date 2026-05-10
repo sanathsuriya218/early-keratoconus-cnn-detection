@@ -99,33 +99,6 @@ The oversampled model shows a notable improvement in recall — which is particu
 
 ---
 
-## Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/keratoconus-cnn-detection.git
-cd keratoconus-cnn-detection
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install tensorflow numpy pandas matplotlib seaborn scikit-learn jupyter
-```
-
-### 3. Run the Notebook
-
-```bash
-# Main model (with oversampling)
-jupyter notebook keratoconus-detection-deep-learning.ipynb
-
-# Baseline model (without oversampling)
-jupyter notebook keratoconus-detection-without-oversampling.ipynb
-```
-
----
-
 ## Key Learnings
 
 - Applying CNNs to medical image classification for a socially impactful use case
